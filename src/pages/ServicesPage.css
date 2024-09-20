@@ -1,0 +1,47 @@
+/* ServicesPage.css */
+.tabs-section {
+    padding: 2rem;
+    background-color: #edebd2;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+  
+  .tabs-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tabs {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .tab {
+    padding: 1rem;
+    margin-right: 0.5rem;
+    background-color: #037272;
+    color: #0a0900;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .tab.active {
+    background-color: #025a5a;
+  }
+  
+  .tabs-content {
+    margin-top: 1rem;
+  }
+  
+  .tab-content {
+    display: none;
+  }
+  
+  .tab-content.active {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #037272;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  

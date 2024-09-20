@@ -1,0 +1,320 @@
+/* Main Page Styles */
+.main-section {
+  padding: 2rem;
+  background-color: #edebd2; /* Set background color */
+}
+
+.search-container {
+  margin-bottom: 2rem;
+  text-align: center; /* Center-align content */
+}
+
+.search-fields {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.search-fields input {
+  padding: 0.5rem;
+  border: 1px solid #037272;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.search-fields button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #037272;
+  color: #edebd2;
+  cursor: pointer;
+}
+
+.search-fields button:hover {
+  background-color: #025a5a;
+}
+
+
+/* Discount Offers Section */
+.discount-offers-section {
+  padding: 2rem;
+  background-color: #edebd2; /* Same background color for consistency */
+}
+
+.slider-item img {
+  width: 100%; /* Ensure images take up full width of their container */
+  max-width: 300px; /* Adjust the max-width to the desired size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+}
+
+.slider-caption {
+  text-align: center;
+}
+
+
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  background-color: #fff;
+}
+
+.card-title {
+  color: #037272;
+}
+
+.card-text {
+  color: #037272;
+}
+
+/* Why Choose Us Section */
+.why-choose-section {
+  padding: 2rem;
+  background-color: #037272;
+  color: #edebd2;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* Increased gap between cards */
+  justify-content: center;
+}
+
+.card {
+  background-color: #fec20f;
+  color: #037272;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 18rem;
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.card p {
+  margin: 0;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #000;
+  padding: 1rem;
+  text-align: center;
+  color: #edebd2;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-media-icons a {
+  color: #edebd2;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.social-media-icons a:hover {
+  color: #fec20f;
+}
+
+/* Bus Information Section */
+.bus-info-section {
+  padding: 2rem;
+  background-color: #edebd2;
+  color: #037272;
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 2rem;
+}
+
+.bus-info-box {
+  background-color: #fff;
+  border: 1px solid #037272;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.bus-info-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.bus-info-section p {
+  margin: 0.5rem 0;
+}
+
+.bus-info-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.bus-info-list {
+  list-style: disc;
+  margin: 0;
+  padding: 0;
+  padding-left: 1.5rem;
+  flex: 1;
+  min-width: 150px;
+}
+
+.bus-info-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Abhi Assured Program Section */
+.abhi-assured-section {
+  padding: 2rem;
+  background-color: #edebd2;
+  color: #037272;
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 2rem;
+}
+
+.abhi-assured-box {
+  background-color: #fff;
+  border: 1px solid #037272;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.abhi-assured-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.abhi-assured-section p {
+  margin: 0.5rem 0;
+}
+
+.abhi-assured-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.abhi-assured-list {
+  list-style: disc;
+  margin: 0;
+  padding: 0;
+  padding-left: 1.5rem;
+  flex: 1;
+  min-width: 150px;
+}
+
+.abhi-assured-list li {
+  margin-bottom: 0.5rem;
+}
+/* Features Section */
+.features-section {
+  padding: 2rem;
+  background-color: #edebd2; /* Background color for consistency */
+  color: #037272; /* Text color */
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 2rem;
+}
+
+.features-box {
+  background-color: #fff;
+  border: 1px solid #037272;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.features-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.features-list {
+  list-style: disc;
+  margin: 0;
+  padding: 0;
+  padding-left: 1.5rem;
+}
+
+.features-list li {
+  margin-bottom: 0.5rem;
+}
+/* Tabs Section */
+.tabs-section {
+  padding: 2rem;
+  background-color: #edebd2; /* Background color */
+  color: #037272; /* Text color */
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 2rem;
+}
+
+.tabs-container {
+  display: flex;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+
+.tab {
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #037272;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s;
+}
+
+.tab:hover {
+  background-color: #037272;
+  color: #fff;
+}
+
+.tabs-content {
+  flex: 1;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content h2 {
+  margin-top: 0;
+}
+
+.tab-content p {
+  margin: 0.5rem 0;
+}
+
+/* Show the active tab content */
+.tab:hover ~ .tabs-content .tab-content#tab1 {
+  display: block;
+}
+
+.tab:hover ~ .tabs-content .tab-content#tab2 {
+  display: block;
+}
+
+.tab:hover ~ .tabs-content .tab-content#tab3 {
+  display: block;
+}
+
+.tab:hover ~ .tabs-content .tab-content#tab4 {
+  display: block;
+}

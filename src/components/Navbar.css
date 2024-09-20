@@ -1,0 +1,83 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #037272;
+  color: #edebd2;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand a {
+  color: #edebd2;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 0.5rem; /* Space between logo and text */
+}
+
+.navbar-logo {
+  width: 40px; /* Adjust size of the logo */
+  height: auto;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-links a {
+  color: #edebd2;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-links a:hover {
+  color: #fec20f;
+}
+
+/* Buttons */
+.navbar-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #fec20f;
+  color: #037272;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #edebd2;
+  color: #037272;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .navbar-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
